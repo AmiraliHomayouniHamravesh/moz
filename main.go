@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 )
-
+// moz
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintln(w, "Hello from Darkube!")
